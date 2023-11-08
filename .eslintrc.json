@@ -4,13 +4,13 @@
         "node": true
     },
     "extends": "google",
-    "overrides": [
-    ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "rules": {
-        "indent": ["error", 4]
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "windows"],
+        "require-jsdoc": 0
     }
 }
